@@ -105,13 +105,18 @@
   text-decoration: underline;
 }
 
-.downBtn {
+.downBtn{
   border: 1px solid black;
   background-color: #2dd46b;
   padding: 11px 20px;
   border-radius: 40px;
 }
 
+.downBtn:hover{
+  background-color: black;
+  color: white;
+
+}
 .navbarr {
   background-color: #fcf5ebdc;
   padding: 10px 20px;
@@ -156,6 +161,7 @@
   color: white;
   font-size: 80px;
   font-weight: 400;
+  overflow-y: hidden;
 }
 
 .box p {
@@ -219,6 +225,7 @@
 .mood > :nth-child(1) a {
   text-decoration: none;
 }
+
 
 .mood > :nth-child(1) a span {
   border-bottom: 2px solid #25d366;
@@ -386,6 +393,15 @@
   padding-bottom: 5rem; 
 }
 
+.section1 a{
+  text-decoration: none;
+}
+
+.section1 a:hover{
+  text-decoration: underline;
+  color: white;
+}
+
 .section1 > :nth-child(1) {
   display: flex;
   flex-direction: column;
@@ -398,6 +414,11 @@
   height: 3.3rem;
   width: 170px;
   border-radius: 25px;
+}
+
+.section1 > :nth-child(1) button:hover {
+  border: none;
+  background-color:white;
 }
 
 .section1 a {
